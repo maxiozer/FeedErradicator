@@ -1,0 +1,13 @@
+{
+    "name": "Feed Erradicator",
+    "version": "1.0",
+    "description": "Erradicate all feed from different sites!",
+    "manifest_version": 2,
+    "permissions": ["storage", "webNavigation"],
+    "background": {
+        "scripts": [
+            "youtube.js"
+        ],
+        "persistent": false
+    }
+}
